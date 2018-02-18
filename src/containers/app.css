@@ -1,0 +1,96 @@
+.App {
+  background: #efefef;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  text-align: center;
+  background-color: #55ccbb;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.text-gray {
+  color: #999;
+}
+
+input[type='text'], textarea {
+  min-width: 200px;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 0 0 10px 0;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 15px;
+  margin: 0 0 5px 0;
+  border-radius: 5px;
+  border: 0;
+  background: #55ccbb;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn:active,
+.btn:focus,
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  outline: 0;
+}
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+  border: 2px solid #888;
+}
+
+.btn:hover {
+  background: #99ccbb;  
+}
+
+.btn:active {
+  background: #33aa99;
+}
+
+.btn-sm {
+  padding: 6px !important;
+  font-size: 0.8rem;
+  text-transform: capitalize !important;
+}
+
+.list-item {
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+}
+
+
+.panel {
+  margin: 10px 5px 0 5px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+}
