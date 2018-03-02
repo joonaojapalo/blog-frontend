@@ -11,11 +11,10 @@ import 'simple-grid/css/grid.css'
 const Root = ({ store, history }) => (
   <Provider store={store}>
     <ConnectedRouter history={history}>
-      <div>
-        <Route path='/' component={App} />
-        <Route path='/author' component={App} />
-        <Route path='/post/:postId' component={App} />
-      </div>
+      <Route path='/' component={App}>
+        <Route path='author' component={App} />
+        <Route path='post/:postId' component={App} />
+      </Route>
     </ConnectedRouter>
   </Provider>
 )

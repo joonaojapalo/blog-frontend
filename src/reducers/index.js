@@ -14,6 +14,7 @@ const rootReducer = combineReducers({
   user,
   posts,
   postEditor,
-postViewer})
+  postViewer
+})
 
 export default rootReducer
